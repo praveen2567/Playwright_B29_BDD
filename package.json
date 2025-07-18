@@ -1,0 +1,32 @@
+{
+  "name": "learnplaywright_techifynow_bdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require cucumber.config.js --require tests/stepDefinitions/**/*.js --format @cucumber/pretty-formatter --format json:reports/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10",
+    "multiple-cucumber-html-reporter": "^3.9.3"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

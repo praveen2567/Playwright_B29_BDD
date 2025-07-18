@@ -1,0 +1,329 @@
+[
+  {
+    "description": "    This feature tests different login scenarios using valid and invalid credentials",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-login-functionality;verify-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 389510792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user launch the Application",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4800006250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enter username as \"Admin\" and password as \"admin123\"",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2055963459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1046414749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user should be navigated to dashboard page",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 351114125
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21012000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-login-functionality;verify-login-with-valid-username-and-invalid-password",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify login with valid username and invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 236202084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "user launch the Application",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4348493582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user enter username as \"Admin\" and password as \"adminahs123\"",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2051298416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1054965959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user should login error message",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1585807750
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27675291
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-login-functionality;verify-login-with-invalid-username-and-valid-password",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify login with invalid username and valid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 259316124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "user launch the Application",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4544399290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user enter username as \"Admiahsn\" and password as \"admin123\"",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2047406833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1045275999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "user should login error message",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372520542
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16658666
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-login-functionality;verify-login-with-invalid-username-and-invalid-password",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify login with invalid username and invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 238669792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "user launch the Application",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5290322083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "user enter username as \"Admiasdn\" and password as \"adminahs123\"",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2053167874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1044402332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "user should login error message",
+            "match": {
+              "location": "tests/stepDefinitions/loginsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1113531499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29494458
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify Login Functionality",
+    "tags": [],
+    "uri": "tests/features/login.feature"
+  }
+]
